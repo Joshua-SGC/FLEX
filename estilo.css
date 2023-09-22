@@ -1,0 +1,131 @@
+body{
+    background: #000;
+    width: 700px; margin: auto;
+}
+
+h1{color: #ff0 ;}
+
+#principal{
+    background: #777;
+}
+
+.contenedor{
+    width: 690px;
+    border: 1px solid #ff0000;
+    margin-top: 15px;
+    display: flex;
+}
+
+.contenedor>div>img{
+    background: #777;
+    color: #fff;
+    width: 120px; height: 100px;
+    font-size: 2em;
+    margin: 4px;
+}
+
+.contenedor>div>p{
+    margin: 40px;
+    color: #fff;
+}
+/*--------------------------------*/
+#caja1{
+    flex-direction: row;
+}
+
+#caja1>div{
+    background: #8a2be2;
+}
+/*--------------------------------*/
+#caja2{
+    flex-direction: row-reverse;
+}
+
+#caja2>div{
+    background: turquoise;
+}
+/*--------------------------------*/
+#caja3{
+    flex-direction: column;
+    width: 130px;
+}
+
+#caja3>div{
+    background: peru;
+}
+/*--------------------------------*/
+#caja4{
+    width: 130px;
+    flex-direction: column-reverse;
+}
+
+#caja4>div{
+    background: #fbbafb;
+}
+/*--------------------------------*/
+#caja5{
+    width: 130px;
+    flex-wrap: wrap;
+}
+
+#caja5>div{
+    background: #fbba6f;
+}
+/*--------------------------------*/
+#caja6{
+    width: 130px;
+    flex-wrap: nowrap;
+}
+
+#caja6>div{
+    background: #1bc5bd;
+}
+/*--------------------------------*/
+#caja7{
+    width: 130px;
+    flex-wrap: wrap-reverse;
+}
+
+#caja7>div{
+    background: white;
+}
+/*--------------------------------*/
+#caja8{
+    justify-content: flex-start;
+}
+#caja8>div{
+    background: #fbbafb
+
+}
+/*--------------------------------*/
+#caja9{
+    justify-content: flex-end;
+}
+
+#caja9>div{
+    background: salmon;
+}
+/*--------------------------------*/
+#caja10{
+    justify-content: center;
+}
+
+#caja10>div{
+    background: bisque;
+}
+/*--------------------------------*/
+#caja11{
+    justify-content: space-between;
+}
+
+#caja11>div{
+    background: rgb(160, 108, 45);
+}
+/*--------------------------------*/
+#caja12{
+    justify-content: space-around;
+}
+
+#caja12>div{
+    background: rgb(31, 141, 16);
+}
